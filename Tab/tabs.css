@@ -1,0 +1,35 @@
+
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  box-shadow: 0 0 4px 0px grey;
+  border-radius: 4px;
+  padding: 16px;
+} 
+
+.tabs .tabs-header {
+  display: flex;
+  font-size: 13px;
+  color: #252525;
+  line-height: 1.5;
+  font-weight: 500;
+  border-bottom: 3px solid #d4d4d4;
+  justify-content: space-around;
+} 
+.tabs .tabs-items {
+  cursor: pointer;
+}
+
+.tabs .tabs-items.active {
+  border-bottom: 3px solid #3b8bf0;
+  color: #3b8bf0;
+  margin-bottom: -3px;
+}
+.tabs .tabs-son{
+  padding: 16px 0;
+  font-size: 40px;
+  display: none;
+}
+.tabs .tabs-son.active{
+  display: block;
+}
